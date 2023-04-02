@@ -1,0 +1,14 @@
+Name
+John Doe
+
+Education
+Bachelor's Degree in Computer Science, University of XYZ
+
+Work Experience
+Software Developer, ABC Inc. (2019-present)
+
+Skills
+Python
+JavaScript
+HTML/CSS
+SQL
