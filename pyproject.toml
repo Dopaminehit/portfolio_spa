@@ -1,0 +1,49 @@
+[build-system]
+requires = ["flit_core >=3.7,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "portfolio_spa"
+authors = [{name = "Raj", email = "rajendla94@gmail.com"}]
+readme = "README.rst"
+description = "Portfolio Website Single Page Application"
+version = "0.0.0"
+license = {file = "LICENSE"}
+maintainers = [{name = "Raj", email = "rajendla94@gmail.com"},]
+
+requires-python = ">=3.8,<4"
+
+dependencies = [
+    # required project dependencies
+]
+
+[project.optional-dependencies]
+dev = [
+    "black == 22.3.0",
+    "flake8-annotations == 2.8.0",
+    "flit == 3.7.1",
+    "isort == 5.10.1",
+    "mypy == 0.942",
+]
+test = [
+    "pytest == 7.1.1",
+    "pytest-cov == 3.0.0",
+    "pytest-flask == 1.2.0",
+    "pytest-mock == 3.7.0",
+]
+
+[project.urls]
+Source = "https://github.com/Dopaminehit/portfolio_spa"
+
+[tool.black]
+# Align this with isort, .flake8
+line-length = 88
+
+[tool.isort]
+profile = "black"
+# Align this with black, .flake8
+line_length = 88
+
+[[tool.mypy.overrides]]
+module = "tests"
+ignore_errors = true
