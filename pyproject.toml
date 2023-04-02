@@ -3,7 +3,7 @@ requires = ["flit_core >=3.7,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "portfolio_spa"
+name = "spa"
 authors = [{name = "Raj", email = "rajendla94@gmail.com"}]
 readme = "README.rst"
 description = "Portfolio Website Single Page Application"
