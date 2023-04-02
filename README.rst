@@ -28,11 +28,11 @@ dependencies mentioned in pyproject.toml file.
 
     flit install -s
 
-Checks to be made before every Push (will be moved to CI part at later point of time)
+Checks to be made before every Push (will be moved to CI part at a later point of time)
 
 ::
 
-    black mmcore/
-    isort mmcore/
-    flake8 mmcore/
-    mypy mmcore/
+    black spa/
+    isort spa/
+    flake8 spa/
+    mypy spa/
